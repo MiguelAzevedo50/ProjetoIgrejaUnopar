@@ -1,0 +1,111 @@
+body {
+  overflow: auto;
+  margin: 0;
+}
+.card-largura{
+    max-width: 18rem;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.img-cruz {
+    width: 50px;
+    height: 50px;
+}
+
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 40%;
+    height: 400px;
+}
+
+.imagem-carrossel-dois{
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+color: rgb(37, 25, 59)!important;
+}
+
+
+.botao-cor-especial{
+    background-color: rgb(37, 25, 59);
+    color: white;
+    margin-left: 4em;
+}
+
+.borda-cor-especial{
+    border-color: rgb(37, 25, 59);
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+
+}
+
+.not-cursor{
+    cursor: not-allowed;
+    pointer-events: none!important;
+    
+}
+
+  #card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 1;
+    display: none;
+    border-radius: 10px;
+  }
+
+  #card-container::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(71, 71, 71);
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 2s;
+    transition: 2s;
+    opacity: 2px;
+  }
+ 
+  
+  #card-text {
+    font-size: 24px;
+  }
+  
+  #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  .p1 {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+  }
+  .qrcodeDizimo {
+    margin-left: 7em;
+    width: 50%;
+  }
