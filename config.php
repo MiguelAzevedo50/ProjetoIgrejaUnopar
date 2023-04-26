@@ -1,9 +1,9 @@
 <?php
 
-    $dbHost = 'localhost';
-    $dbUsername = 'root';
+    $dbHost = '';
+    $dbUsername = '';
     $dbPassword = '';
-    $dbName = 'igreja_oficial';
+    $dbName = '';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
     
